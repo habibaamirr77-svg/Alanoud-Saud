@@ -1,0 +1,3903 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="العنود سعود - ممثلة سعودية - أعمال درامية سعودية مميزة">
+    <meta name="keywords" content="العنود سعود, ممثلة سعودية, مسلسلات سعودية, دراما سعودية, ممثلات سعوديات">
+    <meta property="og:title" content="العنود سعود - ممثلة سعودية">
+    <meta property="og:description" content="ممثلة سعودية موهوبة، أبرز أعمالها: مذكرة ابتزاز، كنا امس، بعد حين، ضحايا حلال، بنات الملاكمة، ستوديو، لعبة كبار، عيال نوف، دكة العبيد، حوجن، كلاود كيتشن، أمي">
+    <meta property="og:type" content="website">
+    <title>العنود سعود - ممثلة سعودية</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+            background-color: #0d1117;
+            color: #e6edf3;
+            line-height: 1.8;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e6edf3;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 3px solid #911e69;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+            background-size: 100px 100px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            position: relative;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #161b22;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: #e6edf3;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background-color: #d4af37;
+            color: #0d1117;
+            transform: translateY(-2px);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Section Styles */
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            color: #8d2157;
+            font-size: 2em;
+            border-bottom: 3px solid #84296c;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            right: 0;
+            width: 100px;
+            height: 3px;
+            background-color: #94198c;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #161b22;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        #about p {
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        /* Works Section */
+        .works {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            gap: 20px;
+        }
+
+        .works li {
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            border-right: 4px solid #d437b7;
+        }
+
+        .works li:hover {
+            transform: translateX(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            cursor: pointer;
+        }
+
+        .works li strong {
+            color: #d4af37;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .works li .year {
+            display: inline-block;
+            background-color: #d4af37;
+            color: white;
+            padding: 3px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin-right: 10px;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            cursor: pointer;
+            aspect-ratio: 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-item .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(13, 17, 23, 0.95));
+            color: #e6edf3;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: all 0.3s ease;
+        }
+
+        .gallery-item:hover .overlay {
+            transform: translateY(0);
+        }
+
+        /* Social Links */
+        .social-links {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 15px 30px;
+            background-color: #161b22;
+            text-decoration: none;
+            color: #e6edf3;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            font-weight: 600;
+            border: 1px solid #30363d;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+            background-color: #d4af37;
+            color: #0d1117;
+            border-color: #d4af37;
+        }
+
+        .social-links a svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #161b22;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #30363d;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            font-family: inherit;
+            background-color: #0d1117;
+            color: #e6edf3;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: #d4af37;
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+        }
+
+        .contact-form button {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .contact-form button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        /* Fan Messages Section */
+        .fan-form {
+            display: grid;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .fan-form input,
+        .fan-form textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #30363d;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            font-family: inherit;
+            background-color: #0d1117;
+            color: #e6edf3;
+        }
+
+        .fan-form input:focus,
+        .fan-form textarea:focus {
+            outline: none;
+            border-color: #d4af37;
+            box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+        }
+
+        .fan-form button {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .fan-form button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        .messages-display {
+            margin-top: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .message-card {
+            background-color: #161b22;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-right: 4px solid #d4af37;
+        }
+
+        .message-card strong {
+            color: #d4af37;
+        }
+
+        .message-card .msg-date {
+            font-size: 0.85em;
+            color: #8b949e;
+            margin-right: 10px;
+        }
+
+        .message-card p {
+            margin-top: 10px;
+            color: #e6edf3;
+        }
+
+        .message-card .heart-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            margin-right: 10px;
+            color: #8b949e;
+        }
+
+        .message-card .heart-btn.liked {
+            color: #e74c3c;
+        }
+
+        .message-card .likes-count {
+            font-size: 0.9em;
+            color: #8b949e;
+        }
+
+        .message-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .no-messages {
+            text-align: center;
+            padding: 40px;
+            color: #8b949e;
+            font-style: italic;
+        }
+
+        /* Photos Gallery Section */
+        .photos-section {
+            margin-top: 40px;
+        }
+
+        .photo-upload-form {
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 2px dashed #30363d;
+        }
+
+        .photo-upload-form h3 {
+            color: #d4af37;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .photo-upload-form input[type="file"] {
+            display: none;
+        }
+
+        .upload-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #d4af37;
+            color: #0d1117;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            background-color: #b8962e;
+            transform: translateY(-2px);
+        }
+
+        .photos-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .photo-card {
+            background-color: #161b22;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .photo-card img {
+            width: 100%;
+            max-height: 600px;
+            object-fit: contain;
+            background-color: #000;
+        }
+
+        .photo-info {
+            padding: 15px;
+        }
+
+        .photo-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #30363d;
+            margin-top: 10px;
+        }
+
+        .photo-action-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            padding: 5px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .photo-action-btn.like-btn {
+            color: #8b949e;
+        }
+
+        .photo-action-btn.like-btn.liked {
+            color: #e74c3c;
+        }
+
+        .photo-action-btn.comment-btn {
+            color: #8b949e;
+        }
+
+        .photo-action-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .photo-likes {
+            font-size: 0.9em;
+            color: #8b949e;
+        }
+
+        .photo-date {
+            font-size: 0.8em;
+            color: #8b949e;
+            margin-right: auto;
+        }
+
+        /* Comments Section */
+        .comments-section {
+            background-color: #0d1117;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        .comments-section.show {
+            display: block;
+        }
+
+        .comment {
+            padding: 10px 0;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .comment:last-child {
+            border-bottom: none;
+        }
+
+        .comment strong {
+            color: #d4af37;
+            font-size: 0.9em;
+        }
+
+        .comment span {
+            font-size: 0.8em;
+            color: #8b949e;
+            margin-right: 8px;
+        }
+
+        .comment p {
+            font-size: 0.9em;
+            margin-top: 5px;
+            color: #e6edf3;
+        }
+
+        .comment-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .comment-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            background-color: #161b22;
+            color: #e6edf3;
+            font-size: 0.9em;
+        }
+
+        .comment-form button {
+            padding: 10px 20px;
+            background-color: #d4af37;
+            color: #0d1117;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .no-photos {
+            text-align: center;
+            padding: 60px;
+            color: #8b949e;
+        }
+
+        .no-photos span {
+            font-size: 3em;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        /* Series Summary Modal */
+        .series-summary-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .series-summary-modal.show {
+            display: flex;
+        }
+
+        .series-summary-content {
+            background-color: #161b22;
+            border-radius: 15px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .series-summary-header {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            padding: 20px 25px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .series-summary-header h3 {
+            color: #0d1117;
+            margin: 0;
+            font-size: 1.3em;
+        }
+
+        .close-summary-btn {
+            background: none;
+            border: none;
+            font-size: 1.8em;
+            cursor: pointer;
+            color: #0d1117;
+            line-height: 1;
+        }
+
+        .series-summary-body {
+            padding: 25px;
+        }
+
+        .series-summary-body .year-badge {
+            display: inline-block;
+            background-color: #d4af37;
+            color: #0d1117;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .series-summary-body p {
+            color: #e6edf3;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #161b22;
+            color: #e6edf3;
+            margin-top: 40px;
+            border-top: 1px solid #30363d;
+        }
+
+        footer p {
+            opacity: 0.9;
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #d4af37;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            font-size: 1.5em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1em;
+            }
+            
+            nav ul {
+                gap: 10px;
+            }
+            
+            nav a {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+            
+            #about, #contact {
+                padding: 25px;
+            }
+            
+            .works li {
+                padding: 20px;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #0d1117;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #30363d;
+            border-top-color: #d4af37;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Profile Picture Styles */
+        .profile-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #d4af37;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.05);
+        }
+
+        .change-profile-btn {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            width: 35px;
+            height: 35px;
+            background-color: #d4af37;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .change-profile-btn:hover {
+            transform: scale(1.1);
+            background-color: #b8962e;
+        }
+
+        #profileInput {
+            display: none;
+        }
+
+        /* Settings Bar */
+        .settings-bar {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 2000;
+        }
+
+        .settings-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3em;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .settings-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .theme-btn {
+            background-color: #d4af37;
+            color: #0d1117;
+        }
+
+        .theme-btn:hover {
+            background-color: #b8962e;
+        }
+
+        .lang-btn {
+            background-color: #30363d;
+            color: #e6edf3;
+        }
+
+        .lang-btn:hover {
+            background-color: #484f58;
+        }
+
+        /* Light Mode Styles */
+        body.light-mode {
+            background-color: #f6f8fa;
+            color: #24292f;
+        }
+
+        body.light-mode #about,
+        body.light-mode .works li,
+        body.light-mode .post-card,
+        body.light-mode .message-card,
+        body.light-mode #contact,
+        body.light-mode .post-upload-form,
+        body.light-mode nav,
+        body.light-mode footer,
+        body.light-mode .series-summary-content {
+            background-color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        body.light-mode nav {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        body.light-mode .contact-form input,
+        body.light-mode .contact-form textarea,
+        body.light-mode .fan-form input,
+        body.light-mode .fan-form textarea,
+        body.light-mode .comment-form input,
+        body.light-mode .post-text-input {
+            background-color: #f6f8fa;
+            color: #24292f;
+            border-color: #d0d7de;
+        }
+
+        body.light-mode header {
+            background: linear-gradient(135deg, #f6f8fa 0%, #e1e4e8 100%);
+            color: #24292f;
+        }
+
+        body.light-mode .social-links a {
+            background-color: #f6f8fa;
+            color: #24292f;
+            border-color: #d0d7de;
+        }
+
+        body.light-mode .section h2 {
+            color: #b8962e;
+        }
+
+        body.light-mode .section h2::after,
+        body.light-mode .works li,
+        body.light-mode .message-card {
+            border-color: #b8962e;
+        }
+
+        body.light-mode .works li strong {
+            color: #b8962e;
+        }
+
+        body.light-mode .year,
+        body.light-mode .series-summary-body .year-badge,
+        body.light-mode .filter-btn.active {
+            background-color: #b8962e;
+            color: #ffffff;
+        }
+
+        /* Posts Section */
+        .posts-section {
+            margin-top: 40px;
+        }
+
+        .post-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .post-tab-btn {
+            padding: 10px 25px;
+            border: 2px solid #d4af37;
+            background-color: transparent;
+            color: #d4af37;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .post-tab-btn:hover,
+        .post-tab-btn.active {
+            background-color: #d4af37;
+            color: #0d1117;
+        }
+
+        .post-upload-form {
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 2px dashed #30363d;
+        }
+
+        .post-upload-form h3 {
+            color: #d4af37;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .upload-type-selector {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .upload-type-btn {
+            padding: 12px 25px;
+            border: 2px solid #30363d;
+            background-color: transparent;
+            color: #e6edf3;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+        }
+
+        .upload-type-btn:hover,
+        .upload-type-btn.active {
+            border-color: #d4af37;
+            color: #d4af37;
+        }
+
+        .upload-type-btn.active {
+            background-color: rgba(212, 175, 55, 0.1);
+        }
+
+        .post-upload-section {
+            display: none;
+        }
+
+        .post-upload-section.active {
+            display: block;
+        }
+
+        .post-upload-form input[type="file"] {
+            display: none;
+        }
+
+        .upload-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #d4af37;
+            color: #0d1117;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .upload-btn:hover {
+            background-color: #b8962e;
+            transform: translateY(-2px);
+        }
+
+        .post-text-input {
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            border: 2px solid #30363d;
+            border-radius: 10px;
+            font-size: 1em;
+            font-family: inherit;
+            background-color: #0d1117;
+            color: #e6edf3;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+
+        .post-text-input:focus {
+            outline: none;
+            border-color: #d4af37;
+        }
+
+        .posts-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .post-card {
+            background-color: #161b22;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .post-card.image-post img {
+            width: 100%;
+            max-height: 600px;
+            object-fit: contain;
+            background-color: #000;
+            display: block;
+        }
+
+        .post-card.video-post video {
+            width: 100%;
+            max-height: 600px;
+            object-fit: contain;
+            background-color: #000;
+            display: block;
+        }
+
+        .post-card.text-post {
+            padding: 25px;
+        }
+
+        .post-content {
+            padding: 15px;
+        }
+
+        .post-text-content {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #e6edf3;
+            white-space: pre-wrap;
+        }
+
+        .post-info {
+            padding: 15px;
+            border-top: 1px solid #30363d;
+        }
+
+        .post-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .post-action-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            padding: 5px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .post-action-btn.like-btn {
+            color: #8b949e;
+        }
+
+        .post-action-btn.like-btn.liked {
+            color: #e74c3c;
+        }
+
+        .post-action-btn.comment-btn {
+            color: #8b949e;
+        }
+
+        .post-action-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .post-likes {
+            font-size: 0.9em;
+            color: #8b949e;
+        }
+
+        .post-date {
+            font-size: 0.8em;
+            color: #8b949e;
+            margin-right: auto;
+        }
+
+        .post-type-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 12px;
+            background-color: rgba(212, 175, 55, 0.2);
+            color: #d4af37;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+
+        /* Comments Section */
+        .comments-section {
+            background-color: #0d1117;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        .comments-section.show {
+            display: block;
+        }
+
+        .comment {
+            padding: 10px 0;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .comment:last-child {
+            border-bottom: none;
+        }
+
+        .comment strong {
+            color: #d4af37;
+            font-size: 0.9em;
+        }
+
+        .comment span {
+            font-size: 0.8em;
+            color: #8b949e;
+            margin-right: 8px;
+        }
+
+        .comment p {
+            font-size: 0.9em;
+            margin-top: 5px;
+            color: #e6edf3;
+        }
+
+        .comment-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .comment-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            background-color: #161b22;
+            color: #e6edf3;
+            font-size: 0.9em;
+        }
+
+        .comment-form button {
+            padding: 10px 20px;
+            background-color: #d4af37;
+            color: #0d1117;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .no-posts {
+            text-align: center;
+            padding: 60px;
+            color: #8b949e;
+        }
+
+        .no-posts span {
+            font-size: 3em;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        /* Cartoon Timeline Styles - Website Colors */
+        .timeline-section {
+            margin-top: 60px;
+            padding: 40px 0;
+            background-color: #161b22;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid #30363d;
+        }
+
+        /* Sky decoration - static for performance */
+        .timeline-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(1px 1px at 20px 30px, rgba(255,255,255,0.3), transparent),
+                radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.2), transparent),
+                radial-gradient(1px 1px at 50px 160px, rgba(255,255,255,0.3), transparent);
+            background-repeat: repeat;
+            background-size: 200px 200px;
+        }
+
+        /* Clouds - styled as artistic elements */
+        .cloud {
+            position: absolute;
+            font-size: 1.5em;
+            opacity: 0.3;
+            filter: grayscale(50%);
+        }
+
+        .cloud-1 { top: 20px; left: 10%; }
+        .cloud-2 { top: 35px; left: 60%; }
+        .cloud-3 { top: 15px; left: 80%; }
+
+        .timeline-section h2 {
+            color: #d4af37;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 2;
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .timeline-section h2::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #d4af37, transparent);
+            margin: 15px auto 0;
+        }
+
+        /* Road container */
+        .road-container {
+            position: relative;
+            padding: 180px 20px 120px;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        /* Cartoon Road - styled to match website */
+        .cartoon-road {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            min-width: max-content;
+            padding: 0 60px;
+            position: relative;
+            height: 120px;
+        }
+
+        /* Road surface */
+        .road-surface {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background: linear-gradient(180deg, #21262d 0%, #161b22 100%);
+            border-radius: 10px;
+            border: 2px solid #30363d;
+        }
+
+        /* Road lines */
+        .road-lines {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 4px;
+            transform: translateY(-50%);
+            background: repeating-linear-gradient(
+                90deg,
+                #d4af37 0px,
+                #d4af37 40px,
+                transparent 40px,
+                transparent 80px
+            );
+        }
+
+        /* Road edges */
+        .road-edge {
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            height: 8px;
+            background: repeating-linear-gradient(
+                90deg,
+                #d4af37 0px,
+                #d4af37 15px,
+                #30363d 15px,
+                #30363d 30px
+            );
+        }
+
+        .road-edge.top { bottom: auto; top: -5px; }
+
+        /* Cartoon Car - elegant design */
+        .cartoon-car {
+            position: absolute;
+            bottom: 20px;
+            left: 80px;
+            z-index: 10;
+        }
+
+        .car-body {
+            width: 90px;
+            height: 40px;
+            background: linear-gradient(180deg, #d4af37 0%, #b8962e 50%, #8a7424 100%);
+            border-radius: 20px 20px 8px 8px;
+            position: relative;
+            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.3);
+        }
+
+        /* Car roof */
+        .car-roof {
+            position: absolute;
+            top: -18px;
+            left: 20px;
+            width: 50px;
+            height: 22px;
+            background: linear-gradient(180deg, #30363d 0%, #21262d 100%);
+            border-radius: 12px 12px 5px 5px;
+            border: 2px solid #d4af37;
+        }
+
+        /* Car windows */
+        .car-window {
+            position: absolute;
+            top: -14px;
+            width: 18px;
+            height: 14px;
+            background: linear-gradient(180deg, #58a6ff 0%, #388bfd 100%);
+            border-radius: 6px 6px 2px 2px;
+            border: 1px solid #8b949e;
+        }
+
+        .car-window.front { left: 24px; }
+        .car-window.back { right: 24px; }
+
+        /* Car headlights */
+        .car-light {
+            position: absolute;
+            width: 10px;
+            height: 6px;
+            background: #e6edf3;
+            border-radius: 2px;
+            bottom: 8px;
+            box-shadow: 0 0 8px rgba(230, 237, 243, 0.5);
+        }
+
+        .car-light.left { left: -4px; }
+        .car-light.right { right: -4px; }
+
+        /* Car wheels */
+        .car-wheel {
+            position: absolute;
+            bottom: -8px;
+            width: 20px;
+            height: 20px;
+            background: #0d1117;
+            border-radius: 50%;
+            border: 3px solid #30363d;
+        }
+
+        .car-wheel.left { left: 10px; }
+        .car-wheel.right { right: 10px; }
+
+        /* Wheel hubcaps */
+        .car-wheel::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 6px;
+            height: 6px;
+            background: #d4af37;
+            border-radius: 50%;
+        }
+
+        /* Car exhaust */
+        .car-exhaust {
+            position: absolute;
+            right: -6px;
+            bottom: 4px;
+            width: 8px;
+            height: 5px;
+            background: #30363d;
+            border-radius: 2px;
+        }
+
+        /* Smoke animation */
+        .smoke {
+            position: absolute;
+            right: -12px;
+            bottom: 4px;
+            font-size: 0.7em;
+            opacity: 0.4;
+            filter: grayscale(50%);
+        }
+
+        /* Year markers on road */
+        .year-markers {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            min-width: max-content;
+            padding: 0 20px;
+            position: relative;
+            margin-top: 20px;
+            z-index: 5;
+        }
+
+        .year-marker {
+            margin: 0 25px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .year-marker-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
+            border: 3px solid #d4af37;
+            color: #d4af37;
+            font-size: 0.95em;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .year-marker-btn:hover {
+            background: linear-gradient(135deg, #21262d 0%, #161b22 100%);
+        }
+
+        .year-marker.active .year-marker-btn {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+        }
+
+        /* Road marker for year */
+        .year-road-marker {
+            width: 25px;
+            height: 15px;
+            background: linear-gradient(180deg, #d4af37 0%, #b8962e 100%);
+            clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+            margin-top: 5px;
+        }
+
+        /* Works popup - hidden by default */
+        .works-popup {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
+            border-radius: 15px;
+            padding: 15px 20px;
+            min-width: 220px;
+            text-align: center;
+            box-shadow: 0 -10px 40px rgba(0,0,0,0.5);
+            border: 2px solid #d4af37;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 20;
+            margin-bottom: 15px;
+            max-height: 350px;
+            overflow-y: auto;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .works-popup::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .works-popup::-webkit-scrollbar-track {
+            background: #0d1117;
+            border-radius: 3px;
+        }
+
+        .works-popup::-webkit-scrollbar-thumb {
+            background: #d4af37;
+            border-radius: 3px;
+        }
+
+        .works-popup::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 12px 12px 0 12px;
+            border-style: solid;
+            border-color: #21262d transparent transparent transparent;
+        }
+
+        .year-marker:hover .works-popup,
+        .year-marker.active .works-popup {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .works-popup h4 {
+            color: #d4af37;
+            font-size: 1em;
+            margin-bottom: 12px;
+            font-weight: 700;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 8px;
+        }
+
+        .works-popup .works-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .works-popup .work-item {
+            background: rgba(212, 175, 55, 0.1);
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 10px 12px;
+            cursor: pointer;
+            transition: background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .works-popup .work-item:hover {
+            background: rgba(212, 175, 55, 0.2);
+            border-color: #d4af37;
+        }
+
+        .works-popup .work-item h5 {
+            color: #e6edf3;
+            font-size: 0.95em;
+            margin-bottom: 4px;
+        }
+
+        .works-popup .work-item .role {
+            color: #8b949e;
+            font-size: 0.85em;
+        }
+
+        .works-popup .work-item.featured {
+            background: rgba(212, 175, 55, 0.15);
+            border: 1px solid #d4af37;
+        }
+
+        .works-popup .work-item.featured h5 {
+            color: #d4af37;
+        }
+
+        /* Trees decoration - artistic palms */
+        .tree {
+            position: absolute;
+            bottom: 80px;
+            font-size: 2em;
+            filter: grayscale(30%);
+            opacity: 0.6;
+        }
+
+        .tree-1 { left: 5%; }
+        .tree-2 { right: 5%; }
+        .tree-3 { left: 25%; }
+        .tree-4 { right: 25%; }
+        .tree-5 { left: 75%; }
+        .tree-6 { right: 75%; }
+
+        /* Navigation dots */
+        .timeline-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .timeline-nav-btn {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 2px solid #d4af37;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-nav-btn:hover,
+        .timeline-nav-btn.active {
+            background-color: #d4af37;
+            transform: scale(1.2);
+        }
+
+        /* Scroll hint */
+        .timeline-scroll-hint {
+            text-align: center;
+            color: #8b949e;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Light mode support */
+        body.light-mode .timeline-section {
+            background-color: #f6f8fa;
+            border-color: #e1e4e8;
+        }
+
+        body.light-mode .works-popup {
+            background: linear-gradient(135deg, #ffffff 0%, #f6f8fa 100%);
+            border-color: #b8962e;
+        }
+
+        body.light-mode .works-popup::after {
+            border-color: #f6f8fa transparent transparent transparent;
+        }
+
+        body.light-mode .works-popup h4 {
+            color: #b8962e;
+            border-color: #e1e4e8;
+        }
+
+        body.light-mode .works-popup .work-item {
+            background: rgba(184, 150, 46, 0.1);
+            border-color: #e1e4e8;
+        }
+
+        body.light-mode .works-popup .work-item:hover {
+            background: rgba(184, 150, 46, 0.2);
+            border-color: #b8962e;
+        }
+
+        body.light-mode .works-popup .work-item h5 {
+            color: #24292f;
+        }
+
+        body.light-mode .works-popup .work-item.featured {
+            background: rgba(184, 150, 46, 0.15);
+            border-color: #b8962e;
+        }
+
+        body.light-mode .works-popup .work-item.featured h5 {
+            color: #b8962e;
+        }
+
+        body.light-mode .works-popup .work-item .role {
+            color: #57606a;
+        }
+
+        body.light-mode .year-marker-btn {
+            background: linear-gradient(135deg, #ffffff 0%, #f6f8fa 100%);
+            color: #b8962e;
+            border-color: #b8962e;
+        }
+
+        body.light-mode .year-marker.active .year-marker-btn {
+            background: linear-gradient(135deg, #b8962e 0%, #a68529 100%);
+            color: #ffffff;
+        }
+
+        body.light-mode .timeline-nav-btn {
+            border-color: #b8962e;
+        }
+
+        body.light-mode .timeline-nav-btn.active {
+            background-color: #b8962e;
+        }
+
+        body.light-mode .road-surface {
+            background: linear-gradient(180deg, #e1e4e8 0%, #d0d7de 100%);
+            border-color: #c9d1d9;
+        }
+
+        body.light-mode .timeline-scroll-hint {
+            color: #57606a;
+        }
+
+        /* Games Section Styles */
+        .game-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .game-screen {
+            display: none;
+            text-align: center;
+            padding: 30px;
+            background-color: #161b22;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .game-screen.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .game-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-15px); }
+            60% { transform: translateY(-7px); }
+        }
+
+        /* Additional Animations */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+            20%, 40%, 60%, 80% { transform: translateX(5px); }
+        }
+
+        @keyframes wobble {
+            0%, 100% { transform: rotate(0deg); }
+            15% { transform: rotate(-5deg); }
+            30% { transform: rotate(3deg); }
+            45% { transform: rotate(-3deg); }
+            60% { transform: rotate(2deg); }
+            75% { transform: rotate(-1deg); }
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 5px rgba(212, 175, 55, 0.5); }
+            50% { box-shadow: 0 0 30px rgba(212, 175, 55, 0.8), 0 0 60px rgba(212, 175, 55, 0.4); }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-10px) rotate(2deg); }
+            50% { transform: translateY(0) rotate(0deg); }
+            75% { transform: translateY(-5px) rotate(-1deg); }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            14% { transform: scale(1.1); }
+            28% { transform: scale(1); }
+            42% { transform: scale(1.1); }
+            70% { transform: scale(1); }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+
+        @keyframes rollIn {
+            0% { transform: rotate(-720deg) translateX(-100px); opacity: 0; }
+            100% { transform: rotate(0) translateX(0); opacity: 1; }
+        }
+
+        @keyframes zoomInOut {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        @keyframes slideUpDown {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Animated classes */
+        .animate-bounce {
+            animation: bounce 1s ease infinite;
+        }
+
+        .animate-shake {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        .animate-wobble {
+            animation: wobble 1s ease-in-out;
+        }
+
+        .animate-glow {
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .animate-heartbeat {
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        .animate-zoom {
+            animation: zoomInOut 2s ease-in-out infinite;
+        }
+
+        .animate-slide {
+            animation: slideUpDown 2s ease-in-out infinite;
+        }
+
+        /* Game title animation */
+        .game-title {
+            animation: wobble 2s ease-in-out infinite, glow 3s ease-in-out infinite;
+        }
+
+        /* Game icon animations */
+        .game-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite, float 3s ease-in-out infinite;
+        }
+
+        /* Result icon animation */
+        .result-icon {
+            font-size: 5em;
+            margin-bottom: 15px;
+            animation: heartbeat 1.5s ease-in-out infinite, glow 2s ease-in-out infinite;
+        }
+
+        /* Game button hover effects */
+        .game-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .game-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .game-btn:hover::before {
+            left: 100%;
+        }
+
+        .game-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.5);
+            animation: wobble 0.5s ease-in-out;
+        }
+
+        .game-btn:active {
+            transform: translateY(-2px) scale(0.98);
+        }
+
+        /* Option button animations */
+        .option-btn {
+            padding: 18px 25px;
+            background-color: #21262d;
+            border: 2px solid #30363d;
+            border-radius: 15px;
+            color: #e6edf3;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .option-btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(212, 175, 55, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s ease, height 0.6s ease;
+        }
+
+        .option-btn:hover:not(.disabled)::after {
+            width: 300px;
+            height: 300px;
+        }
+
+        .option-btn:hover:not(.disabled) {
+            border-color: #d4af37;
+            background-color: rgba(212, 175, 55, 0.1);
+            transform: translateY(-3px) scale(1.02);
+            animation: wobble 0.3s ease-in-out;
+        }
+
+        .option-btn.correct {
+            animation: glow 1s ease-in-out, bounce 0.5s ease;
+        }
+
+        .option-btn.wrong {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        /* Question card animation */
+        .question-card {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(145, 30, 105, 0.1) 100%);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #d4af37;
+            margin-bottom: 25px;
+            animation: fadeIn 0.5s ease-out, glow 3s ease-in-out infinite;
+        }
+
+        /* Question number animation */
+        .question-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            animation: bounce 2s infinite;
+        }
+
+        /* Progress bar animation */
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #d4af37, #b8962e, #d4af37);
+            background-size: 200% 100%;
+            width: 0%;
+            transition: width 0.5s ease;
+            animation: shimmer 2s infinite linear;
+        }
+
+        /* Feedback animation */
+        .feedback {
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+            display: none;
+        }
+
+        .feedback.show {
+            display: block;
+            animation: slideIn 0.3s ease-out, wobble 0.5s ease-out;
+        }
+
+        .feedback.correct {
+            animation: slideIn 0.3s ease-out, bounce 0.5s ease, glow 1s ease-in-out;
+        }
+
+        .feedback.wrong {
+            animation: slideIn 0.3s ease-out, shake 0.5s ease-in-out;
+        }
+
+        /* Stat animations */
+        .stat {
+            text-align: center;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(145, 30, 105, 0.1) 100%);
+            border-radius: 15px;
+            border: 2px solid rgba(212, 175, 55, 0.3);
+            animation: fadeIn 0.5s ease-out, float 3s ease-in-out infinite;
+        }
+
+        .stat:nth-child(2) { animation-delay: 0.2s; }
+        .stat:nth-child(3) { animation-delay: 0.4s; }
+
+        .stat-value {
+            display: block;
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #d4af37;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        /* Game screen transitions */
+        .game-screen {
+            display: none;
+            text-align: center;
+            padding: 30px;
+            background-color: #161b22;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            animation: fadeIn 0.5s ease-out, zoomInOut 3s ease-in-out infinite;
+        }
+
+        .game-screen.active {
+            display: block;
+            animation: fadeIn 0.5s ease-out, bounce 0.5s ease-out;
+        }
+
+        /* Game rules animation */
+        .game-rules li {
+            padding: 10px 15px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            color: #e6edf3;
+            border-right: 3px solid #d4af37;
+            animation: slideIn 0.3s ease-out backwards;
+        }
+
+        .game-rules li:nth-child(1) { animation-delay: 0.1s; }
+        .game-rules li:nth-child(2) { animation-delay: 0.2s; }
+        .game-rules li:nth-child(3) { animation-delay: 0.3s; }
+
+        /* Result actions animation */
+        .result-actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .result-actions .game-btn {
+            animation: fadeIn 0.5s ease-out, bounce 1s infinite;
+        }
+
+        .result-actions .game-btn:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .game-screen h3 {
+            color: #d4af37;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .game-screen > p {
+            color: #8b949e;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+        }
+
+        .game-rules {
+            list-style: none;
+            padding: 0;
+            margin: 25px auto;
+            max-width: 350px;
+            text-align: right;
+        }
+
+        .game-rules li {
+            padding: 10px 15px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            color: #e6edf3;
+            border-right: 3px solid #d4af37;
+        }
+
+        .game-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .game-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+        }
+
+        .game-btn.secondary {
+            background: linear-gradient(135deg, #21262d 0%, #161b22 100%);
+            color: #e6edf3;
+            border: 2px solid #d4af37;
+        }
+
+        .game-btn.secondary:hover {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+        }
+
+        /* Quiz Screen */
+        .game-progress {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .game-progress span {
+            font-size: 1.1em;
+            color: #8b949e;
+        }
+
+        .game-progress span:last-child {
+            color: #d4af37;
+            font-weight: 600;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background-color: #30363d;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 25px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #d4af37, #b8962e);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        .question-card {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(145, 30, 105, 0.1) 100%);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #d4af37;
+            margin-bottom: 25px;
+        }
+
+        .question-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .question-text {
+            font-size: 1.3em;
+            color: #e6edf3;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        @media (max-width: 500px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .option-btn {
+            padding: 18px 25px;
+            background-color: #21262d;
+            border: 2px solid #30363d;
+            border-radius: 15px;
+            color: #e6edf3;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .option-btn:hover:not(.disabled) {
+            border-color: #d4af37;
+            background-color: rgba(212, 175, 55, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .option-btn.correct {
+            background-color: rgba(46, 204, 113, 0.2);
+            border-color: #2ecc71;
+            color: #2ecc71;
+        }
+
+        .option-btn.wrong {
+            background-color: rgba(231, 76, 60, 0.2);
+            border-color: #e74c3c;
+            color: #e74c3c;
+        }
+
+        .option-btn.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .feedback {
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+            display: none;
+        }
+
+        .feedback.show {
+            display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .feedback.correct {
+            background-color: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+            border: 1px solid #2ecc71;
+        }
+
+        .feedback.wrong {
+            background-color: rgba(231, 76, 60, 0.2);
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+        }
+
+        .next-btn {
+            background: linear-gradient(135deg, #21262d 0%, #161b22 100%);
+            color: #d4af37;
+            border: 2px solid #d4af37;
+        }
+
+        .next-btn:hover {
+            background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+            color: #0d1117;
+        }
+
+        /* Result Screen */
+        .result-icon {
+            font-size: 5em;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .result-screen h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        #resultTitle {
+            color: #d4af37;
+        }
+
+        #resultMessage {
+            color: #8b949e;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .result-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(145, 30, 105, 0.1) 100%);
+            border-radius: 15px;
+            border: 2px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #d4af37;
+        }
+
+        .stat-label {
+            color: #8b949e;
+            font-size: 1em;
+            margin-top: 5px;
+        }
+
+        .result-actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* Light mode for games */
+        body.light-mode .game-screen,
+        body.light-mode .question-card,
+        body.light-mode .stat {
+            background-color: #ffffff;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        body.light-mode .game-rules li {
+            background-color: rgba(184, 150, 46, 0.1);
+            color: #24292f;
+        }
+
+        body.light-mode .option-btn {
+            background-color: #f6f8fa;
+            color: #24292f;
+            border-color: #d0d7de;
+        }
+
+        body.light-mode .option-btn:hover:not(.disabled) {
+            border-color: #b8962e;
+            background-color: rgba(184, 150, 46, 0.1);
+        }
+
+        body.light-mode .question-text,
+        body.light-mode .question-number {
+            color: #24292f;
+        }
+
+        body.light-mode .game-progress span {
+            color: #57606a;
+        }
+
+        body.light-mode .game-progress span:last-child {
+            color: #b8962e;
+        }
+    </style>
+</head>
+<body>
+    <!-- Settings Bar -->
+    <div class="settings-bar">
+        <button class="settings-btn theme-btn" onclick="toggleTheme()" title="تبديل الثيم">🌙</button>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">نبذة عني</a></li>
+            <li><a href="#tvseries">أعمالي الدرامية</a></li>
+            <li><a href="#games">مسابقات</a></li>
+            <li><a href="#posts">المنشورات</a></li>
+            <li><a href="#messages">رسائل المعجبين</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="profile-container">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 150'%3E%3Crect fill='%231a1a2e' width='150' height='150'/%3E%3Ccircle cx='75' cy='55' r='30' fill='%23d4af37'/%3E%3Cellipse cx='75' cy='130' rx='50' ry='40' fill='%23d4af37'/%3E%3C/svg%3E" alt="الصورة الشخصية" class="profile-image" id="profileImage">
+            <button class="change-profile-btn" onclick="document.getElementById('profileInput').click()" title="تغيير الصورة">📷</button>
+            <input type="file" id="profileInput" accept="image/*" onchange="changeProfilePicture(event)">
+        </div>
+        <h1>العنود سعود</h1>
+        <p>ممثلة سعودية | أعمال درامية مميزة</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2>نبذة عن الممثلة</h2>
+            <p>
+                العنود سعود ممثلة سعودية موهوبة، تتميز بموهبة تمثيلية فريدة وقدرة على تجسيد الشخصيات المتنوعة 
+                بإتقان واحترافية عالية. ولدت في المملكة العربية السعودية ونشأت في بيئة غنية بالتراث والثقافة 
+                العربية والإسلامية، مما أثرى مسيرتها الفنية وألهم أعمالها الدرامية.
+            </p>
+            <br>
+            <p>
+                بدأت مسيرتها الفنية في عام 2019، وشاركت في العديد من المسلسلات السعودية البارزة التي لاقت 
+                نجاحاً واسعاً على المستويين المحلي والإقليمي. تتميز بقدرتها على اختيار أدوار قوية ومؤثرة، 
+                وحصلت على إعجاب الجمهور والنقاد على حد سواء بأدائها المتميز.
+            </p>
+            <br>
+            <p>
+                من خلال أعمالها الدرامية، تسعى العنود سعود إلى تقديم محتوى سعودي أصيل يعكس واقع المجتمع 
+                السعودي وقيّمه النبيلة. كما تطمح إلى المساهمة في ازدهار الدراما السعودية على المستوى العالمي، 
+                وتؤمن بأن الفن التمثيلي لغة عالمية تتجاوز الحدود والجغرافيا.
+            </p>
+        </section>
+
+        <!-- TV Series Section -->
+        <section class="section" id="tvseries">
+            <h2>أعمالي الدرامية</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="2025">2025</button>
+                <button class="filter-btn" data-filter="2023">2023</button>
+                <button class="filter-btn" data-filter="2022">2022</button>
+                <button class="filter-btn" data-filter="2021">2021</button>
+                <button class="filter-btn" data-filter="2020">2020</button>
+                <button class="filter-btn" data-filter="2019">2019</button>
+            </div>
+            <ul class="works tv-works">
+                <li data-year="2020" onclick="showSeriesSummary('مذكرة ابتزاز', '2020', '🎭 دور هديل')">
+                    <strong>مذكرة ابتزاز</strong>
+                    <span class="year">2020</span>
+                </li>
+                <li data-year="2020" onclick="showSeriesSummary('كنا امس', '2020', '🎭 دور لميس')">
+                    <strong>كنا امس</strong>
+                    <span class="year">2020</span>
+                </li>
+                <li data-year="2020" onclick="showSeriesSummary('بعد حين', '2020', '🎭 دور خلود')">
+                    <strong>بعد حين</strong>
+                    <span class="year">2020</span>
+                </li>
+                <li data-year="2020" onclick="showSeriesSummary('ضحايا حلال', '2020', '🎭 دور ملك')">
+                    <strong>ضحايا حلال</strong>
+                    <span class="year">2020</span>
+                </li>
+                <li data-year="2019" onclick="showSeriesSummary('بنات الملاكمة', '2019-2020', '🎭 دور شمس')">
+                    <strong>بنات الملاكمة</strong>
+                    <span class="year">2019-2020</span>
+                </li>
+                <li data-year="2021" onclick="showSeriesSummary('ستوديو', '2021', '🎭 دور أميرة')">
+                    <strong>ستوديو</strong>
+                    <span class="year">2021</span>
+                </li>
+                <li data-year="2021" onclick="showSeriesSummary('لعبة كبار', '2021', '🎭 دور مرزوقة')">
+                    <strong>لعبة كبار</strong>
+                    <span class="year">2021</span>
+                </li>
+                <li data-year="2022" onclick="showSeriesSummary('عيال نوف', '2022', '🎭 دور صمود')">
+                    <strong>عيال نوف</strong>
+                    <span class="year">2022</span>
+                </li>
+                <li data-year="2022" onclick="showSeriesSummary('ستوديو', '2022', '🎭 دور أميرة')">
+                    <strong>ستوديو</strong>
+                    <span class="year">2022</span>
+                </li>
+                <li data-year="2023" onclick="showSeriesSummary('دكة العبيد', '2023', '🎭 دور رحمه')">
+                    <strong>دكة العبيد</strong>
+                    <span class="year">2023</span>
+                </li>
+                <li data-year="2023" onclick="showSeriesSummary('حوجن', '2023', '🎭 دور جمارى')">
+                    <strong>حوجن</strong>
+                    <span class="year">2023</span>
+                </li>
+                <li data-year="2023" onclick="showSeriesSummary('كلاود كيتشن', '2023', '🎭 دور عبير')">
+                    <strong>كلاود كيتشن</strong>
+                    <span class="year">2023</span>
+                </li>
+                <li data-year="2025" onclick="showSeriesSummary('أمي', '2025', '🎭 دور مريم')">
+                    <strong>أمي</strong>
+                    <span class="year">2025</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section">
+            <div class="cloud cloud-1">☁️</div>
+            <div class="cloud cloud-2">☁️</div>
+            <div class="cloud cloud-3">☁️</div>
+            
+            <h2>🎬 رحلتي في التمثيل 🚗</h2>
+            <p class="timeline-scroll-hint">← اضغط على السنة لمشاهدة الأعمال ←</p>
+            
+            <div class="road-container">
+                <!-- Cartoon Car -->
+                <div class="cartoon-car" id="cartoonCar">
+                    <div class="car-body">
+                        <div class="car-roof">
+                            <div class="car-window front"></div>
+                            <div class="car-window back"></div>
+                        </div>
+                        <div class="car-light left"></div>
+                        <div class="car-light right"></div>
+                        <div class="car-exhaust">
+                            <span class="smoke">💨</span>
+                        </div>
+                        <div class="car-wheel left"></div>
+                        <div class="car-wheel right"></div>
+                    </div>
+                </div>
+                
+                <!-- Cartoon Road -->
+                <div class="cartoon-road">
+                    <div class="road-surface"></div>
+                    <div class="road-lines"></div>
+                    <div class="road-edge top"></div>
+                </div>
+                
+                <!-- Year Markers -->
+                <div class="year-markers" id="yearMarkers">
+                    <!-- Generated by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Trees decoration -->
+            <div class="tree tree-1">🌳</div>
+            <div class="tree tree-2">🌴</div>
+            <div class="tree tree-3">🌲</div>
+            <div class="tree tree-4">🌳</div>
+            <div class="tree tree-5">🌴</div>
+            <div class="tree tree-6">🌲</div>
+            
+            <!-- Navigation dots -->
+            <div class="timeline-nav" id="timelineNav">
+                <!-- Generated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Games Section -->
+        <section class="section" id="games">
+            <h2>🎮 مسابقات</h2>
+            <p style="text-align: center; margin-bottom: 30px; color: #8b949e;">
+                اختبر معرفتك بأعمال العنود سعود!
+            </p>
+            
+            <!-- Game Container -->
+            <div class="game-container">
+                <!-- Start Screen -->
+                <div class="game-screen active" id="gameStart">
+                    <div class="game-icon">🎯</div>
+                    <h3>مسابقة أعمال العنود سعود</h3>
+                    <p>أجب على 5 أسئلة عشوائية عن أعمال العنود سعود!</p>
+                    <ul class="game-rules">
+                        <li>كل إجابة صحيحة تمنحك 20 نقطة</li>
+                        <li>لديك 3 محاولات فقط</li>
+                        <li>الأسئلة عشوائية في كل مرة</li>
+                    </ul>
+                    <button class="game-btn" onclick="startGame()">🎮 ابدأ المسابقة</button>
+                </div>
+
+                <!-- Quiz Screen -->
+                <div class="game-screen" id="quizScreen">
+                    <div class="game-progress">
+                        <span id="questionProgress">السؤال 1 من 5</span>
+                        <span id="currentScore">النتيجة: 0</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    
+                    <div class="question-card">
+                        <span class="question-number" id="questionNumber">السؤال #1</span>
+                        <p class="question-text" id="questionText">...</p>
+                    </div>
+                    
+                    <div class="options-grid" id="optionsGrid">
+                        <!-- Options will be generated here -->
+                    </div>
+                    
+                    <div class="feedback" id="feedbackMessage"></div>
+                    <button class="game-btn next-btn" id="nextQuestionBtn" onclick="nextQuestion()">السؤال التالي →</button>
+                </div>
+
+                <!-- Result Screen -->
+                <div class="game-screen" id="resultScreen">
+                    <div class="result-icon" id="resultEmoji">🏆</div>
+                    <h3 id="resultTitle">ممتاز!</h3>
+                    <p id="resultMessage">أحسنت!</p>
+                    
+                    <div class="result-stats">
+                        <div class="stat">
+                            <span class="stat-value" id="finalScore">0</span>
+                            <span class="stat-label">النقاط</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="correctAnswers">0</span>
+                            <span class="stat-label">صحيح</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="wrongAnswers">0</span>
+                            <span class="stat-label">خطأ</span>
+                        </div>
+                    </div>
+                    
+                    <div class="result-actions">
+                        <button class="game-btn" onclick="startGame()">🔄 إعادة المحاولة</button>
+                        <button class="game-btn secondary" onclick="scrollToSection('tvseries')">📺 مشاهدة الأعمال</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Posts Section -->
+        <section class="section" id="posts">
+            <h2>المنشورات <span id="totalPosts" style="font-size: 0.7em; color: #8b949e;">(0)</span></h2>
+            
+            <!-- Post Type Tabs -->
+            <div class="post-tabs">
+                <button class="post-tab-btn active" data-filter="all" onclick="filterPosts('all')">الكل</button>
+                <button class="post-tab-btn" data-filter="image" onclick="filterPosts('image')">الصور</button>
+                <button class="post-tab-btn" data-filter="video" onclick="filterPosts('video')">الفيديوهات</button>
+                <button class="post-tab-btn" data-filter="text" onclick="filterPosts('text')">النصوص</button>
+            </div>
+            
+            <!-- Upload Form -->
+            <div class="post-upload-form">
+                <h3>إضافة منشور جديد</h3>
+                
+                <!-- Upload Type Selector -->
+                <div class="upload-type-selector">
+                    <button class="upload-type-btn active" data-type="image" onclick="selectUploadType('image')">
+                        📷 صورة
+                    </button>
+                    <button class="upload-type-btn" data-type="video" onclick="selectUploadType('video')">
+                        🎬 فيديو
+                    </button>
+                    <button class="upload-type-btn" data-type="text" onclick="selectUploadType('text')">
+                        📝 نص
+                    </button>
+                </div>
+                
+                <!-- Image Upload Section -->
+                <div class="post-upload-section active" id="imageUploadSection">
+                    <label class="upload-btn">
+                        اختيار صورة
+                        <input type="file" id="imageInput" accept="image/*">
+                    </label>
+                    <span id="imageFileName" style="margin-right: 15px; color: #8b949e;"></span>
+                </div>
+                
+                <!-- Video Upload Section -->
+                <div class="post-upload-section" id="videoUploadSection">
+                    <label class="upload-btn">
+                        اختيار فيديو
+                        <input type="file" id="videoInput" accept="video/*">
+                    </label>
+                    <span id="videoFileName" style="margin-right: 15px; color: #8b949e;"></span>
+                </div>
+                
+                <!-- Text Post Section -->
+                <div class="post-upload-section" id="textUploadSection">
+                    <textarea id="postTextInput" class="post-text-input" placeholder="اكتب منشورك هنا..."></textarea>
+                    <button class="upload-btn" onclick="addTextPost()">نشر النص</button>
+                </div>
+            </div>
+
+            <!-- Posts Grid -->
+            <div class="posts-grid" id="postsGrid">
+                <div class="no-posts" id="noPosts">
+                    <span>📝</span>
+                    <p>لا توجد منشورات حالياً. أضف أول منشور!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fan Messages Section -->
+        <section class="section" id="messages">
+            <h2>رسائل المعجبين <span id="totalMessages" style="font-size: 0.7em; color: #8b949e;">(0)</span></h2>
+            <p style="text-align: center; margin-bottom: 30px; color: #8b949e;">
+                شاركنا رأيك وأرسل رسالة للعنود سعود
+            </p>
+            <form class="fan-form" id="fanForm">
+                <input type="text" id="fanName" placeholder="اسمك" required>
+                <textarea id="fanMessage" rows="6" placeholder="اكتب رسالتك للعنود سعود هنا..." required></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+            
+            <!-- Messages Display -->
+            <div class="messages-display" id="messagesDisplay">
+                <div class="no-messages" id="noMessages">
+                    <p style="font-size: 1.2em; margin-bottom: 10px;">💬</p>
+                    <p>لا توجد رسائل حالياً. كن أول من يكتب رسالة للعنود سعود!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="section" id="social">
+            <h2>تابعوني على وسائل التواصل</h2>
+            <div class="social-links">
+                <a href="https://instagram.com/anoudsaud" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    إنستغرام
+                </a>
+                <a href="https://twitter.com/anoudsaud" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    إكس (تويتر)
+                </a>
+                <a href="https://facebook.com/anoudsaud" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                    فيسبوك
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> العنود سعود. جميع الحقوق محفوظة.</p>
+        <p style="margin-top: 10px; color: #d4af37;">✨ تم البرمجة بواسطة حبيبة الأمير ✨</p>
+        <p>صُنع بحب ♥</p>
+    </footer>
+
+    <!-- Series Summary Modal -->
+    <div class="series-summary-modal" id="seriesSummaryModal">
+        <div class="series-summary-content">
+            <div class="series-summary-header">
+                <h3 id="modalSeriesTitle">عنوان المسلسل</h3>
+                <button class="close-summary-btn" onclick="closeSeriesSummary()">×</button>
+            </div>
+            <div class="series-summary-body">
+                <span class="year-badge" id="modalSeriesYear">2020</span>
+                <p id="modalSeriesSummary">ملخص المسلسل...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="العودة للأعلى">↑</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Loading Screen
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loading').classList.add('hidden');
+            }, 500);
+        });
+
+        // Update Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Scroll to Top Button
+        const scrollTopBtn = document.getElementById('scrollTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth Scroll for Navigation Links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fan Messages Form Handler
+        document.getElementById('fanForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const fanName = document.getElementById('fanName').value;
+            const fanMessage = document.getElementById('fanMessage').value;
+            
+            // Get current date
+            const today = new Date();
+            const dateStr = today.toISOString().split('T')[0];
+            
+            // Hide "no messages" message
+            const noMessages = document.getElementById('noMessages');
+            if (noMessages) {
+                noMessages.style.display = 'none';
+            }
+            
+            // Create new message card
+            const messagesDisplay = document.getElementById('messagesDisplay');
+            const newMessage = document.createElement('div');
+            newMessage.className = 'message-card';
+            newMessage.innerHTML = `
+                <div class="message-header">
+                    <strong>${fanName}</strong>
+                    <span class="msg-date">${dateStr}</span>
+                    <button class="heart-btn" onclick="toggleLike(this)">❤️</button>
+                    <span class="likes-count">0</span>
+                </div>
+                <p>${fanMessage}</p>
+            `;
+            
+            // Insert at the beginning of messages display
+            messagesDisplay.insertBefore(newMessage, messagesDisplay.firstChild);
+            
+            // Update total messages count
+            updateMessagesCount();
+            
+            // Show success message
+            alert('شكراً ' + fanName + '! تم إرسال رسالتك بنجاح.');
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Toggle like function
+        function toggleLike(btn) {
+            const likesCount = btn.nextElementSibling;
+            let count = parseInt(likesCount.textContent);
+            
+            if (btn.classList.contains('liked')) {
+                btn.classList.remove('liked');
+                likesCount.textContent = count - 1;
+            } else {
+                btn.classList.add('liked');
+                likesCount.textContent = count + 1;
+            }
+        }
+
+        // Update messages count
+        function updateMessagesCount() {
+            const messageCards = document.querySelectorAll('.message-card');
+            const countSpan = document.getElementById('totalMessages');
+            countSpan.textContent = '(' + messageCards.length + ')';
+        }
+
+        // Post Upload Type Selector
+        function selectUploadType(type) {
+            // Update buttons
+            document.querySelectorAll('.upload-type-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.type === type) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // Show/hide sections
+            document.querySelectorAll('.post-upload-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(type + 'UploadSection').classList.add('active');
+        }
+
+        // Image Upload Handler
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('imageFileName').textContent = file.name;
+                
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    addPost('image', event.target.result);
+                };
+                reader.readAsDataURL(file);
+                
+                // Reset input
+                this.value = '';
+            }
+        });
+
+        // Video Upload Handler
+        document.getElementById('videoInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('videoFileName').textContent = file.name;
+                
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    addPost('video', event.target.result);
+                };
+                reader.readAsDataURL(file);
+                
+                // Reset input
+                this.value = '';
+            }
+        });
+
+        // Add Text Post
+        function addTextPost() {
+            const textContent = document.getElementById('postTextInput').value.trim();
+            if (textContent) {
+                addPost('text', textContent);
+                document.getElementById('postTextInput').value = '';
+            }
+        }
+
+        // Add Post Function
+        function addPost(type, content) {
+            const noPosts = document.getElementById('noPosts');
+            if (noPosts) {
+                noPosts.style.display = 'none';
+            }
+            
+            const postsGrid = document.getElementById('postsGrid');
+            const today = new Date();
+            const dateStr = today.toISOString().split('T')[0];
+            
+            const postCard = document.createElement('div');
+            postCard.className = 'post-card ' + type + '-post';
+            postCard.dataset.type = type;
+            
+            let contentHtml = '';
+            let typeBadge = '';
+            
+            if (type === 'image') {
+                typeBadge = '<span class="post-type-badge">📷 صورة</span>';
+                contentHtml = '<img src="' + content + '" alt="صورة">';
+            } else if (type === 'video') {
+                typeBadge = '<span class="post-type-badge">🎬 فيديو</span>';
+                contentHtml = '<video controls src="' + content + '"></video>';
+            } else if (type === 'text') {
+                typeBadge = '<span class="post-type-badge">📝 نص</span>';
+                contentHtml = '<div class="post-content"><p class="post-text-content">' + content + '</p></div>';
+            }
+            
+            postCard.innerHTML = typeBadge + contentHtml + `
+                <div class="post-info">
+                    <div class="post-actions">
+                        <button class="post-action-btn like-btn" onclick="togglePostLike(this)">
+                            ❤️ <span class="post-likes">0</span>
+                        </button>
+                        <button class="post-action-btn comment-btn" onclick="togglePostComments(this)">
+                            💬 <span class="post-comments-count">0</span>
+                        </button>
+                        <span class="post-date">${dateStr}</span>
+                    </div>
+                    <div class="comments-section">
+                        <div class="comments-list"></div>
+                        <div class="comment-form">
+                            <input type="text" placeholder="اكتب تعليقاً..." class="commentInput">
+                            <button onclick="addPostComment(this)">إرسال</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            postsGrid.insertBefore(postCard, postsGrid.firstChild);
+            updatePostsCount();
+        }
+
+        // Toggle Post Like
+        function togglePostLike(btn) {
+            const likesSpan = btn.querySelector('.post-likes');
+            let count = parseInt(likesSpan.textContent);
+            
+            if (btn.classList.contains('liked')) {
+                btn.classList.remove('liked');
+                likesSpan.textContent = count - 1;
+            } else {
+                btn.classList.add('liked');
+                likesSpan.textContent = count + 1;
+            }
+        }
+
+        // Toggle Post Comments Section
+        function togglePostComments(btn) {
+            const postCard = btn.closest('.post-card');
+            const commentsSection = postCard.querySelector('.comments-section');
+            commentsSection.classList.toggle('show');
+        }
+
+        // Add Post Comment
+        function addPostComment(btn) {
+            const commentInput = btn.previousElementSibling;
+            const commentText = commentInput.value.trim();
+            
+            if (commentText) {
+                const commentsList = btn.closest('.comments-section').querySelector('.comments-list');
+                const today = new Date();
+                const dateStr = today.toISOString().split('T')[0];
+                
+                const comment = document.createElement('div');
+                comment.className = 'comment';
+                comment.innerHTML = `<strong>مجهول</strong><span>${dateStr}</span><p>${commentText}</p>`;
+                
+                commentsList.appendChild(comment);
+                
+                // Update comments count
+                const commentsCount = btn.closest('.post-info').querySelector('.post-comments-count');
+                let count = parseInt(commentsCount.textContent);
+                commentsCount.textContent = count + 1;
+                
+                // Clear input
+                commentInput.value = '';
+            }
+        }
+
+        // Filter Posts by Type
+        function filterPosts(type) {
+            // Update tab buttons
+            document.querySelectorAll('.post-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.filter === type) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // Show/hide posts
+            const posts = document.querySelectorAll('.post-card');
+            posts.forEach(post => {
+                if (type === 'all' || post.dataset.type === type) {
+                    post.style.display = 'block';
+                } else {
+                    post.style.display = 'none';
+                }
+            });
+        }
+
+        // Update posts count
+        function updatePostsCount() {
+            const posts = document.querySelectorAll('.post-card');
+            const countSpan = document.getElementById('totalPosts');
+            countSpan.textContent = '(' + posts.length + ')';
+        }
+
+        // Profile Picture Functions
+        function changeProfilePicture(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('profileImage').src = e.target.result;
+                    // Save to localStorage
+                    localStorage.setItem('profilePicture', e.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        // Load saved profile picture on page load
+        window.addEventListener('load', function() {
+            const savedProfile = localStorage.getItem('profilePicture');
+            if (savedProfile) {
+                document.getElementById('profileImage').src = savedProfile;
+            }
+            
+            // Load saved theme
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                document.body.classList.add('light-mode');
+                document.querySelector('.theme-btn').innerHTML = '☀️';
+            }
+            
+            // Detect user's device language preference
+            const userLang = navigator.language || navigator.userLanguage;
+            const savedLang = localStorage.getItem('language');
+            
+            // If user has saved language preference, use it
+            // Otherwise, detect from device/browser language
+            let shouldSwitchToEnglish = false;
+            
+            if (savedLang === 'en') {
+                shouldSwitchToEnglish = true;
+            } else if (!savedLang) {
+                // Check if browser language is English (not Arabic)
+                const isArabicBrowser = userLang.startsWith('ar');
+                if (!isArabicBrowser) {
+                    shouldSwitchToEnglish = true;
+                }
+            }
+            
+            // Apply language
+            if (shouldSwitchToEnglish) {
+                toggleLanguage();
+            }
+        });
+
+        // Theme Toggle Function
+        function toggleTheme() {
+            document.body.classList.toggle('light-mode');
+            const isLightMode = document.body.classList.contains('light-mode');
+            const themeBtn = document.querySelector('.theme-btn');
+            
+            if (isLightMode) {
+                themeBtn.innerHTML = '☀️';
+                localStorage.setItem('theme', 'light');
+            } else {
+                themeBtn.innerHTML = '🌙';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // Language Toggle Function
+        function toggleLanguage() {
+            const langBtn = document.querySelector('.lang-btn');
+            const isArabic = document.documentElement.getAttribute('lang') === 'ar';
+            
+            if (isArabic) {
+                // Switch to English
+                document.documentElement.setAttribute('lang', 'en');
+                document.documentElement.setAttribute('dir', 'ltr');
+                // Button shows what language you can switch TO (Arabic)
+                langBtn.textContent = 'عربي';
+                localStorage.setItem('language', 'en');
+                updateEnglishContent();
+            } else {
+                // Switch to Arabic
+                document.documentElement.setAttribute('lang', 'ar');
+                document.documentElement.setAttribute('dir', 'rtl');
+                // Button shows what language you can switch TO (English)
+                langBtn.textContent = 'English';
+                localStorage.setItem('language', 'ar');
+                updateArabicContent();
+            }
+        }
+
+        // Update content for English
+        function updateEnglishContent() {
+            const translations = {
+                'nav-about': 'About Me',
+                'nav-tvseries': 'My TV Works',
+                'nav-photos': 'Photos',
+                'nav-messages': 'Fan Messages',
+                'header-title': 'Anoud Saud',
+                'header-subtitle': 'Saudi Actress | Featured Drama Works',
+                'about-title': 'About the Actress',
+                'about-text-1': 'Anoud Saud is a talented Saudi actress, distinguished by her unique acting ability and proficiency in portraying diverse characters with mastery and professionalism. She was born in the Kingdom of Saudi Arabia and grew up in an environment rich in Arab and Islamic heritage and culture, which enriched her artistic career and inspired her drama works.',
+                'about-text-2': 'She began her artistic career in 2019 and participated in many prominent Saudi series that achieved widespread success at both local and regional levels. She is distinguished by her ability to choose strong and impactful roles, and has won the admiration of audiences and critics alike with her distinguished performance.',
+                'about-text-3': 'Through her drama works, Anoud Saud seeks to present authentic Saudi content that reflects the reality and noble values of Saudi society. She also aspires to contribute to the flourishing of Saudi drama at the global level, and believes that acting is a universal language that transcends borders and geography.',
+                'tvseries-title': 'My TV Works',
+                'filter-all': 'All',
+                'photos-title': 'Photos',
+                'upload-title': 'Add New Photo',
+                'upload-btn': 'Choose Photo',
+                'no-photos': 'No photos yet. Add your first photo!',
+                'messages-title': 'Fan Messages',
+                'messages-subtitle': 'Share your opinion and send a message to Anoud Saud',
+                'fan-name': 'Your Name',
+                'fan-message': 'Write your message to Anoud Saud here...',
+                'submit-btn': 'Send Message',
+                'no-messages': 'No messages yet. Be the first to write a message to Anoud Saud!',
+                'social-title': 'Follow Me on Social Media',
+                'instagram': 'Instagram',
+                'twitter': 'X (Twitter)',
+                'facebook': 'Facebook',
+                'youtube': 'YouTube',
+                'linkedin': 'LinkedIn',
+                'footer-copyright': 'Anoud Saud. All rights reserved.',
+                'footer-credit': '✨ Programming by Habibt Al-Amir ✨',
+                'footer-made': 'Made with love ♥'
+            };
+
+            // Update navigation
+            document.querySelector('nav a[href="#about"]').textContent = translations['nav-about'];
+            document.querySelector('nav a[href="#tvseries"]').textContent = translations['nav-tvseries'];
+            document.querySelector('nav a[href="#photos"]').textContent = translations['nav-photos'];
+            document.querySelector('nav a[href="#messages"]').textContent = translations['nav-messages'];
+
+            // Update header
+            document.querySelector('header h1').textContent = translations['header-title'];
+            document.querySelector('header p').textContent = translations['header-subtitle'];
+
+            // Update about section
+            document.querySelector('#about h2').textContent = translations['about-title'];
+            const aboutPs = document.querySelectorAll('#about p');
+            aboutPs[0].textContent = translations['about-text-1'];
+            aboutPs[1].textContent = translations['about-text-2'];
+            aboutPs[2].textContent = translations['about-text-3'];
+
+            // Update TV series section
+            document.querySelector('#tvseries h2').textContent = translations['tvseries-title'];
+            document.querySelector('.filter-btn[data-filter="all"]').textContent = translations['filter-all'];
+
+            // Update photos section
+            document.querySelector('#photos h2').textContent = translations['photos-title'];
+            document.querySelector('.photo-upload-form h3').textContent = translations['upload-title'];
+            document.querySelector('.upload-btn').childNodes[0].textContent = translations['upload-btn'] + ' ';
+            document.querySelector('#noPhotos p').textContent = translations['no-photos'];
+
+            // Update messages section
+            document.querySelector('#messages h2').textContent = translations['messages-title'];
+            document.querySelector('#messages p').textContent = translations['messages-subtitle'];
+            document.querySelector('#fanName').placeholder = translations['fan-name'];
+            document.querySelector('#fanMessage').placeholder = translations['fan-message'];
+            document.querySelector('#fanForm button').textContent = translations['submit-btn'];
+            document.querySelector('#noMessages p:last-child').textContent = translations['no-messages'];
+
+            // Update social section
+            document.querySelector('#social h2').textContent = translations['social-title'];
+
+            // Update footer
+            document.querySelector('footer p:first-child').innerHTML = '&copy; ' + new Date().getFullYear() + ' ' + translations['footer-copyright'];
+            document.querySelector('footer p:nth-child(2)').textContent = translations['footer-credit'];
+            document.querySelector('footer p:last-child').textContent = translations['footer-made'];
+        }
+
+        // Update content for Arabic
+        function updateArabicContent() {
+            const translations = {
+                'nav-about': 'نبذة عني',
+                'nav-tvseries': 'أعمالي الدرامية',
+                'nav-photos': 'الصور',
+                'nav-messages': 'رسائل المعجبين',
+                'header-title': 'العنود سعود',
+                'header-subtitle': 'ممثلة سعودية | أعمال درامية مميزة',
+                'about-title': 'نبذة عن الممثلة',
+                'about-text-1': 'العنود سعود ممثلة سعودية موهوبة، تتميز بموهبة تمثيلية فريدة وقدرة على تجسيد الشخصيات المتنوعة بإتقان واحترافية عالية. ولدت في المملكة العربية السعودية ونشأت في بيئة غنية بالتراث والثقافة العربية والإسلامية، مما أثرى مسيرتها الفنية وألهم أعمالها الدرامية.',
+                'about-text-2': 'بدأت مسيرتها الفنية في عام 2019، وشاركت في العديد من المسلسلات السعودية البارزة التي لاقت نجاحاً واسعاً على المستويين المحلي والإقليمي. تتميز بقدرتها على اختيار أدوار قوية ومؤثرة، وحصلت على إعجاب الجمهور والنقاد على حد سواء بأدائها المتميز.',
+                'about-text-3': 'من خلال أعمالها الدرامية، تسعى العنود سعود إلى تقديم محتوى سعودي أصيل يعكس واقع المجتمع السعودي وقيّمه النبيلة. كما تطمح إلى المساهمة في ازدهار الدراما السعودية على المستوى العالمي، وتؤمن بأن الفن التمثيلي لغة عالمية تتجاوز الحدود والجغرافيا.',
+                'tvseries-title': 'أعمالي الدرامية',
+                'filter-all': 'الكل',
+                'photos-title': 'الصور',
+                'upload-title': 'إضافة صورة جديدة',
+                'upload-btn': 'اختيار صورة',
+                'no-photos': 'لا توجد صور حالياً. أضف أول صورة!',
+                'messages-title': 'رسائل المعجبين',
+                'messages-subtitle': 'شاركنا رأيك وأرسل رسالة للعنود سعود',
+                'fan-name': 'اسمك',
+                'fan-message': 'اكتب رسالتك للعنود سعود هنا...',
+                'submit-btn': 'إرسال الرسالة',
+                'no-messages': 'لا توجد رسائل حالياً. كن أول من يكتب رسالة للعنود سعود!',
+                'social-title': 'تابعوني على وسائل التواصل',
+                'footer-copyright': 'العنود سعود. جميع الحقوق محفوظة.',
+                'footer-credit': '✨ تم البرمجة بواسطة حبيبة الأمير ✨',
+                'footer-made': 'صُنع بحب ♥'
+            };
+
+            // Update navigation
+            document.querySelector('nav a[href="#about"]').textContent = translations['nav-about'];
+            document.querySelector('nav a[href="#tvseries"]').textContent = translations['nav-tvseries'];
+            document.querySelector('nav a[href="#photos"]').textContent = translations['nav-photos'];
+            document.querySelector('nav a[href="#messages"]').textContent = translations['nav-messages'];
+
+            // Update header
+            document.querySelector('header h1').textContent = translations['header-title'];
+            document.querySelector('header p').textContent = translations['header-subtitle'];
+
+            // Update about section
+            document.querySelector('#about h2').textContent = translations['about-title'];
+            const aboutPs = document.querySelectorAll('#about p');
+            aboutPs[0].textContent = translations['about-text-1'];
+            aboutPs[1].textContent = translations['about-text-2'];
+            aboutPs[2].textContent = translations['about-text-3'];
+
+            // Update TV series section
+            document.querySelector('#tvseries h2').textContent = translations['tvseries-title'];
+            document.querySelector('.filter-btn[data-filter="all"]').textContent = translations['filter-all'];
+
+            // Update photos section
+            document.querySelector('#photos h2').textContent = translations['photos-title'];
+            document.querySelector('.photo-upload-form h3').textContent = translations['upload-title'];
+            document.querySelector('.upload-btn').childNodes[0].textContent = translations['upload-btn'] + ' ';
+            document.querySelector('#noPhotos p').textContent = translations['no-photos'];
+
+            // Update messages section
+            document.querySelector('#messages h2').textContent = translations['messages-title'];
+            document.querySelector('#messages p').textContent = translations['messages-subtitle'];
+            document.querySelector('#fanName').placeholder = translations['fan-name'];
+            document.querySelector('#fanMessage').placeholder = translations['fan-message'];
+            document.querySelector('#fanForm button').textContent = translations['submit-btn'];
+            document.querySelector('#noMessages p:last-child').textContent = translations['no-messages'];
+
+            // Update social section
+            document.querySelector('#social h2').textContent = translations['social-title'];
+
+            // Update footer
+            document.querySelector('footer p:first-child').innerHTML = '&copy; ' + new Date().getFullYear() + ' ' + translations['footer-copyright'];
+            document.querySelector('footer p:nth-child(2)').textContent = translations['footer-credit'];
+            document.querySelector('footer p:last-child').textContent = translations['footer-made'];
+        }
+
+        // Series Summary Functions
+        function showSeriesSummary(title, year, summary) {
+            document.getElementById('modalSeriesTitle').textContent = title;
+            document.getElementById('modalSeriesYear').textContent = year;
+            document.getElementById('modalSeriesSummary').textContent = summary;
+            document.getElementById('seriesSummaryModal').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSeriesSummary() {
+            document.getElementById('seriesSummaryModal').classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('seriesSummaryModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeSeriesSummary();
+            }
+        });
+
+        // Initialize cartoon timeline on page load
+        window.addEventListener('load', function() {
+            generateCartoonTimeline();
+        });
+
+        // Cartoon Timeline Data
+        const timelineData = [
+            {
+                year: '2019',
+                works: [
+                    { title: 'بنات الملاكمة', role: 'شمس', featured: true }
+                ]
+            },
+            {
+                year: '2020',
+                works: [
+                    { title: 'مذكرة ابتزاز', role: 'هديل' },
+                    { title: 'كنا امس', role: 'لميس' },
+                    { title: 'بعد حين', role: 'خلود' },
+                    { title: 'ضحايا حلال', role: 'ملك' }
+                ]
+            },
+            {
+                year: '2021',
+                works: [
+                    { title: 'ستوديو', role: 'أميرة' },
+                    { title: 'لعبة كبار', role: 'مرزوقة' }
+                ]
+            },
+            {
+                year: '2022',
+                works: [
+                    { title: 'عيال نوف', role: 'صمود' },
+                    { title: 'ستوديو', role: 'أميرة' }
+                ]
+            },
+            {
+                year: '2023',
+                works: [
+                    { title: 'دكة العبيد', role: 'رحمه', featured: true },
+                    { title: 'حوجن', role: 'جمارى' },
+                    { title: 'كلاود كيتشن', role: 'عبير' }
+                ]
+            },
+            {
+                year: '2025',
+                works: [
+                    { title: 'أمي', role: 'مريم', featured: true }
+                ]
+            }
+        ];
+
+        function generateCartoonTimeline() {
+            const markersContainer = document.getElementById('yearMarkers');
+            const navContainer = document.getElementById('timelineNav');
+            
+            timelineData.forEach((item, index) => {
+                // Create year marker
+                const markerDiv = document.createElement('div');
+                markerDiv.className = 'year-marker' + (index === 0 ? ' active' : '');
+                markerDiv.dataset.year = item.year;
+                markerDiv.dataset.index = index;
+                
+                // Create works list HTML
+                let worksListHtml = '';
+                item.works.forEach(work => {
+                    worksListHtml += `
+                        <div class="work-item ${work.featured ? 'featured' : ''}" 
+                             onclick="showSeriesSummary('${work.title}', '${item.year}', '🎭 ${work.role}')">
+                            <h5>${work.title}</h5>
+                            <div class="role">${work.role}</div>
+                        </div>
+                    `;
+                });
+                
+                markerDiv.innerHTML = `
+                    <div class="works-popup">
+                        <h4>أعمال ${item.year}</h4>
+                        <div class="works-list">
+                            ${worksListHtml}
+                        </div>
+                    </div>
+                    <button class="year-marker-btn" onclick="moveCarToYear(${index})">${item.year}</button>
+                    <div class="year-road-marker"></div>
+                `;
+                
+                markersContainer.appendChild(markerDiv);
+                
+                // Create navigation dot
+                const navBtn = document.createElement('button');
+                navBtn.className = 'timeline-nav-btn' + (index === 0 ? ' active' : '');
+                navBtn.dataset.index = index;
+                navBtn.addEventListener('click', () => moveCarToYear(index));
+                navContainer.appendChild(navBtn);
+            });
+            
+            // Position car at first year
+            moveCarToYear(0, false);
+        }
+
+        function moveCarToYear(index, animate = true) {
+            const markers = document.querySelectorAll('.year-marker');
+            const navButtons = document.querySelectorAll('.timeline-nav-btn');
+            const car = document.getElementById('cartoonCar');
+            const container = document.querySelector('.road-container');
+            
+            if (markers[index]) {
+                // Update active state
+                markers.forEach(el => el.classList.remove('active'));
+                navButtons.forEach(btn => btn.classList.remove('active'));
+                
+                markers[index].classList.add('active');
+                navButtons[index].classList.add('active');
+                
+                // Calculate car position based on marker
+                const markerBtn = markers[index].querySelector('.year-marker-btn');
+                const markerRect = markerBtn.getBoundingClientRect();
+                const containerRect = container.getBoundingClientRect();
+                const roadWidth = container.offsetWidth;
+                
+                // Calculate percentage position on the road
+                const markerCenter = markerRect.left - containerRect.left + (markerRect.width / 2);
+                const positionPercent = (markerCenter / roadWidth) * 100;
+                
+                // Move car to that position
+                car.style.left = positionPercent + '%';
+                
+                // Scroll container to show the marker if needed
+                const scrollPos = markerRect.left - containerRect.left + (markerRect.width / 2) - (container.offsetWidth / 2);
+                container.scrollTo({
+                    left: scrollPos,
+                    behavior: animate ? 'smooth' : 'auto'
+                });
+            }
+        }
+
+        // Initialize cartoon timeline on page load
+        window.addEventListener('load', function() {
+            generateCartoonTimeline();
+        });
+
+        // ========================================
+        // Quiz Game - Anoud Saud Works
+        // ========================================
+
+        // Quiz questions database
+        const quizQuestions = [
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "مذكرة ابتزاز"؟',
+                correct: 'هديل',
+                options: ['مريم', 'هديل', 'لميس', 'سارة']
+            },
+            {
+                type: 'work',
+                question: 'في أي عام بدأ العنود سعود مسيرتها الفنية؟',
+                correct: '2019',
+                options: ['2018', '2019', '2020', '2021']
+            },
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "بنات الملاكمة"؟',
+                correct: 'شمس',
+                options: ['شمس', 'لميس', 'هديل', 'سارة']
+            },
+            {
+                type: 'work',
+                question: 'ما اسم المسلسل الذي لعبت فيه العنود سعود دور "أميرة"؟',
+                correct: 'ستوديو',
+                options: ['ستوديو', 'لعبة كبار', 'عيال نوف', 'حوجن']
+            },
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "دكة العبيد"؟',
+                correct: 'رحمه',
+                options: ['رحمه', 'عبير', 'جمارى', 'مريم']
+            },
+            {
+                type: 'work',
+                question: 'في أي سنة تم عرض مسلسل "أمي" الذي شاركت فيه العنود سعود؟',
+                correct: '2025',
+                options: ['2023', '2024', '2025', '2022']
+            },
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "كلاود كيتشن"؟',
+                correct: 'عبير',
+                options: ['عبير', 'رحمه', 'جمارى', 'مريم']
+            },
+            {
+                type: 'work',
+                question: 'ما اسم المسلسل الذي لعبت فيه العنود سعود دور "مرزوقة"؟',
+                correct: 'لعبة كبار',
+                options: ['ستوديو', 'لعبة كبار', 'عيال نوف', 'مذكرة ابتزاز']
+            },
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "عيال نوف"؟',
+                correct: 'صمود',
+                options: ['صمود', 'لميس', 'خلود', 'ملك']
+            },
+            {
+                type: 'work',
+                question: 'ما اسم المسلسل الذي لعبت فيه العنود سعود دور "جمارى"؟',
+                correct: 'حوجن',
+                options: ['دكة العبيد', 'حوجن', 'كلاود كيتشن', 'أمي']
+            },
+            {
+                type: 'role',
+                question: 'ما اسم الشخصية التي لعبتها العنود سعود في مسلسل "بعد حين"؟',
+                correct: 'خلود',
+                options: ['ملك', 'خلود', 'لميس', 'هديل']
+            },
+            {
+                type: 'work',
+                question: 'كم عدد الأعمال التي شاركت فيها العنود سعود في عام 2020؟',
+                correct: '4',
+                options: ['2', '3', '4', '5']
+            }
+        ];
+
+        // Game state
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let correctAnswers = 0;
+        let wrongAnswers = 0;
+
+        // Start the game
+        function startGame() {
+            // Reset state
+            currentQuestionIndex = 0;
+            score = 0;
+            correctAnswers = 0;
+            wrongAnswers = 0;
+            
+            // Select 5 random questions
+            currentQuestions = shuffleArray([...quizQuestions]).slice(0, 5);
+            
+            // Hide start screen and result screen, show quiz screen
+            document.getElementById('gameStart').style.display = 'none';
+            document.getElementById('resultScreen').classList.remove('active');
+            document.getElementById('quizScreen').classList.add('active');
+            
+            // Show first question
+            showQuestion();
+        }
+
+        // Show current question
+        function showQuestion() {
+            const question = currentQuestions[currentQuestionIndex];
+            
+            // Add entrance animation to quiz screen
+            const quizScreen = document.getElementById('quizScreen');
+            quizScreen.style.opacity = '0';
+            quizScreen.style.transform = 'scale(0.9)';
+            
+            setTimeout(() => {
+                quizScreen.style.transition = 'all 0.5s ease-out';
+                quizScreen.style.opacity = '1';
+                quizScreen.style.transform = 'scale(1)';
+            }, 50);
+            
+            // Update progress
+            document.getElementById('questionProgress').textContent = 'السؤال ' + (currentQuestionIndex + 1) + ' من 5';
+            document.getElementById('currentScore').textContent = 'النتيجة: ' + score;
+            document.getElementById('progressFill').style.width = ((currentQuestionIndex / 5) * 100) + '%';
+            
+            // Update question with animation
+            document.getElementById('questionNumber').textContent = 'السؤال #' + (currentQuestionIndex + 1);
+            document.getElementById('questionText').textContent = question.question;
+            
+            // Animate question elements
+            const questionText = document.getElementById('questionText');
+            const questionNumber = document.getElementById('questionNumber');
+            questionText.style.opacity = '0';
+            questionText.style.transform = 'translateY(20px)';
+            questionNumber.style.opacity = '0';
+            questionNumber.style.transform = 'scale(0.5)';
+            
+            setTimeout(() => {
+                questionText.style.transition = 'all 0.4s ease-out';
+                questionText.style.opacity = '1';
+                questionText.style.transform = 'translateY(0)';
+                questionNumber.style.transition = 'all 0.4s ease-out';
+                questionNumber.style.opacity = '1';
+                questionNumber.style.transform = 'scale(1)';
+            }, 200);
+            
+            // Shuffle options
+            const shuffledOptions = shuffleArray([...question.options]);
+            
+            // Generate options HTML with staggered animation
+            const optionsGrid = document.getElementById('optionsGrid');
+            optionsGrid.innerHTML = '';
+            
+            for (var i = 0; i < shuffledOptions.length; i++) {
+                var option = shuffledOptions[i];
+                var btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.textContent = option;
+                // Add entrance animation with staggered delay
+                btn.style.opacity = '0';
+                btn.style.transform = 'translateX(-30px)';
+                btn.onclick = (function(selected, correctBtn) {
+                    return function() {
+                        checkAnswer(selected, correct, correctBtn);
+                    };
+                })(option, btn);
+                optionsGrid.appendChild(btn);
+                
+                // Staggered animation for options
+                setTimeout(function(btnElement) {
+                    return function() {
+                        btnElement.style.transition = 'all 0.4s ease-out';
+                        btnElement.style.opacity = '1';
+                        btnElement.style.transform = 'translateX(0)';
+                    };
+                }(btn), 150 + (i * 100));
+            }
+            
+            // Hide feedback and next button
+            document.getElementById('feedbackMessage').classList.remove('show');
+            document.getElementById('nextQuestionBtn').classList.remove('show');
+        }
+
+        // Check answer
+        function checkAnswer(selected, correct, btn) {
+            // Disable all options
+            const allOptions = document.querySelectorAll('.option-btn');
+            for (let i = 0; i < allOptions.length; i++) {
+                allOptions[i].classList.add('disabled');
+            }
+            
+            // Check answer
+            if (selected === correct) {
+                btn.classList.add('correct');
+                score += 20;
+                correctAnswers++;
+                
+                // Update score display
+                document.getElementById('currentScore').textContent = 'النتيجة: ' + score;
+                
+                // Show feedback
+                document.getElementById('feedbackMessage').textContent = '✓ إجابة صحيحة! أحسنت!';
+                document.getElementById('feedbackMessage').className = 'feedback show correct';
+            } else {
+                btn.classList.add('wrong');
+                wrongAnswers++;
+                
+                // Highlight correct answer
+                for (let i = 0; i < allOptions.length; i++) {
+                    if (allOptions[i].textContent === correct) {
+                        allOptions[i].classList.add('correct');
+                    }
+                }
+                
+                // Show feedback
+                document.getElementById('feedbackMessage').textContent = '✗ إجابة خاطئة! الإجابة الصحيحة: ' + correct;
+                document.getElementById('feedbackMessage').className = 'feedback show wrong';
+            }
+            
+            // Show next button
+            document.getElementById('nextQuestionBtn').classList.add('show');
+        }
+
+        // Next question
+        function nextQuestion() {
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < 5) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Show results
+        function showResults() {
+            // Add entrance animation to result screen
+            const resultScreen = document.getElementById('resultScreen');
+            resultScreen.style.opacity = '0';
+            resultScreen.style.transform = 'scale(0.8)';
+            
+            // Hide quiz screen, show result screen
+            document.getElementById('quizScreen').classList.remove('active');
+            resultScreen.classList.add('active');
+            
+            setTimeout(() => {
+                resultScreen.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                resultScreen.style.opacity = '1';
+                resultScreen.style.transform = 'scale(1)';
+            }, 50);
+            
+            // Update progress bar
+            document.getElementById('progressFill').style.width = '100%';
+            
+            // Update final score with animation
+            const finalScore = document.getElementById('finalScore');
+            const correctAnswersEl = document.getElementById('correctAnswers');
+            const wrongAnswersEl = document.getElementById('wrongAnswers');
+            const resultEmoji = document.getElementById('resultEmoji');
+            const resultTitle = document.getElementById('resultTitle');
+            const resultMessage = document.getElementById('resultMessage');
+            const resultStats = document.querySelector('.result-stats');
+            const resultActions = document.querySelector('.result-actions');
+            
+            // Reset and animate elements
+            finalScore.style.opacity = '0';
+            finalScore.style.transform = 'scale(0.5)';
+            correctAnswersEl.style.opacity = '0';
+            correctAnswersEl.style.transform = 'scale(0.5)';
+            wrongAnswersEl.style.opacity = '0';
+            wrongAnswersEl.style.transform = 'scale(0.5)';
+            resultEmoji.style.opacity = '0';
+            resultEmoji.style.transform = 'scale(0) rotate(-180deg)';
+            resultTitle.style.opacity = '0';
+            resultTitle.style.transform = 'translateY(20px)';
+            resultMessage.style.opacity = '0';
+            resultMessage.style.transform = 'translateY(20px)';
+            resultStats.style.opacity = '0';
+            resultStats.style.transform = 'translateY(30px)';
+            resultActions.style.opacity = '0';
+            resultActions.style.transform = 'translateY(20px)';
+            
+            // Update values
+            document.getElementById('finalScore').textContent = score;
+            document.getElementById('correctAnswers').textContent = correctAnswers;
+            document.getElementById('wrongAnswers').textContent = wrongAnswers;
+            
+            // Set emoji based on score
+            var emoji = '💪';
+            var title = 'حاول مرة أخرى!';
+            var message = 'لا بأس! حاول مرة أخرى!';
+            
+            if (score >= 100) {
+                emoji = '🏆';
+                title = 'ممتاز!';
+                message = 'أحسنت! أنت خبير حقيقي في أعمال العنود سعود!';
+            } else if (score >= 80) {
+                emoji = '🌟';
+                title = 'رائع جداً!';
+                message = 'معرفة ممتازة بأعمال العنود سعود!';
+            } else if (score >= 60) {
+                emoji = '👍';
+                title = 'جيد جداً!';
+                message = 'أداء جيد! استمر في التعلم عن أعمالها!';
+            } else if (score >= 40) {
+                emoji = '💪';
+                title = 'جيد!';
+                message = 'لديك معرفة جيدة. يمكنك تحسينها بالمزيد من المشاهدة!';
+            }
+            
+            resultEmoji.textContent = emoji;
+            resultTitle.textContent = title;
+            resultMessage.textContent = message;
+            
+            // Animate elements in sequence
+            setTimeout(function() {
+                resultEmoji.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+                resultEmoji.style.opacity = '1';
+                resultEmoji.style.transform = 'scale(1) rotate(0deg)';
+            }, 200);
+            
+            setTimeout(function() {
+                resultTitle.style.transition = 'all 0.4s ease-out';
+                resultTitle.style.opacity = '1';
+                resultTitle.style.transform = 'translateY(0)';
+            }, 350);
+            
+            setTimeout(function() {
+                resultMessage.style.transition = 'all 0.4s ease-out';
+                resultMessage.style.opacity = '1';
+                resultMessage.style.transform = 'translateY(0)';
+            }, 450);
+            
+            setTimeout(function() {
+                resultStats.style.transition = 'all 0.5s ease-out';
+                resultStats.style.opacity = '1';
+                resultStats.style.transform = 'translateY(0)';
+                
+                // Animate stats values with counting effect
+                animateValue(finalScore, 0, score, 1000);
+                animateValue(correctAnswersEl, 0, correctAnswers, 1000);
+                animateValue(wrongAnswersEl, 0, wrongAnswers, 1000);
+            }, 550);
+            
+            setTimeout(function() {
+                resultActions.style.transition = 'all 0.5s ease-out';
+                resultActions.style.opacity = '1';
+                resultActions.style.transform = 'translateY(0)';
+            }, 750);
+        }
+        
+        // Animate numeric values
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                element.textContent = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Shuffle array helper
+        function shuffleArray(array) {
+            for (var i = array.length - 1; i > 0; i--) {
+                var j = Math.floor(Math.random() * (i + 1));
+                var temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+            return array;
+        }
+    </script>
+</body>
+</html>
